@@ -25,7 +25,6 @@ npm start
 ## 🔐 Acesso
 
 - **URL:** http://localhost:3000
-- **Senha:** `salgadoscomamor`
 
 ## 📋 Funcionalidades
 

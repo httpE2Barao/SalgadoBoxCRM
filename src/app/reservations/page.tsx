@@ -26,7 +26,7 @@ import {
   Search,
   Filter,
   Utensils,
-  Chair
+  Table as TableIcon
 } from 'lucide-react'
 
 interface Reservation {
@@ -200,7 +200,7 @@ export default function ReservationsPage() {
     switch (status) {
       case 'PENDING': return <Clock className="h-4 w-4" />
       case 'CONFIRMED': return <CheckCircle className="h-4 w-4" />
-      case 'SEATED': return <Chair className="h-4 w-4" />
+      case 'SEATED': return <TableIcon className="h-4 w-4" />      
       case 'COMPLETED': return <CheckCircle className="h-4 w-4" />
       case 'CANCELLED': return <XCircle className="h-4 w-4" />
       case 'NO_SHOW': return <AlertCircle className="h-4 w-4" />
